@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="all-contents">
+      <div class="sidebar">
+        <div class="sidebar__header">
+            <img class="burger-icon" src="img/Burger Icon Container (1).png" alt="">
+            <img class=group src="img/Group.png" alt="">
+            <img class="search-icon" src="img/Search Icon Container.png" alt="">
+        </div>
+        <div class="sidebar__menus">
+           <div class="menu-repair">
+              <img src="img/highlight.png" alt=""> 
+              <span>Equipment repair</span>
+           </div>
+           <p class="all-menus menu-services">Services and solutions</p>
+           <p class="all-menus">Corporate clients</p>
+           <p class="all-menus">Equipment sellers</p>
+           <p class="all-menus">Partners</p>
+           <p class="all-menus">Manufacturers</p>
+           <p class="all-menus">Our service centres</p>
+           <p class="all-menus">Contacts</p>
+        </div>
+        <div class="sidebar__footer">
+           <div class="footer-icons">
+             <img src="img/Call Icon Container.png" alt="">
+             <img src="img/Chat Icon Container.png" alt="">
+             <img src="img/Profile Icon Container.png" alt="">
+           </div>
+           <div>mail@cps.com</div>
+           <div class="company-phone">8 800 890 8900</div>
+           <div class="language">
+              <div class="language__option">RU</div>
+              <div class="language__option">EN</div>
+              <div class="language__option">CH</div>
+           </div>
+        </div>
+      </div>
+
+      
+
+
+      <div class="main-contents">
+
+        <div class="first-container">
+            <div class="icons">
+               <div class="icons__right">
+                  <div>
+                      <img class="open-sidebar" src="img/Burger Icon Container.png" alt="">
+                  </div>
+                  <div class="mobile-hidden">
+                      <img src="img/Upper Menu Divider.png" alt="">
+                  </div>
+                  <div>
+                      <img class="company-logo" src="img/Logo Group.png" alt="">
+                  </div>
+               </div>
+                <div class="icons__left">
+                    <div class="mobile-hidden">
+                        <img src="img/Call Icon Container.png" alt="">
+                    </div>
+                    <div class="mobile-hidden">
+                        <img src="img/Chat Icon Container.png" alt="">
+                    </div>
+                    <div class="mobile-hidden">
+                        <img src="img/Profile Icon Container.png" alt="">
+                    </div>
+                    <div>
+                        <img src="img/Upper Menu Divider.png" alt="">
+                    </div>
+                    <div>
+                        <img src="img/Icon (1).png" alt="">
+                    </div>
+                    <div>
+                        <img src="img/Icon.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="background">
+              <div class="header">
+                  <div class="header-title">Services and support</div>
+                  <div class="extra-services">
+                      <div class="submit">
+                          <div class="request">Submit a request</div>
+                          <img class="icon-1" src="img/Icon (1).png" alt="">
+                      </div>
+                      <div class="repair">
+                          <div class="status">Repair status</div>
+                          <img class="icon-2" src="img/Icon.png" alt="">
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="service-options">
+                <div class="brands">Brands we repair</div>
+                <div class="devices">Devices we repair</div>
+                <div class="additional">Service prices</div>
+                <div class="desktop-hidden5">Additional services</div>
+                <div class="additional desktop-visible5">Addresses of service centres</div>
+                <div class="additional">Special prices</div>
+            </div>
+            <div class="review">Reviews</div>
+            <div class="history">
+                <div class="details">
+                    <div class="description">
+                        <div class="description__first-para">
+                            We are an authorized service centre for Dell equipment repairs. Only with us can you repair your Dell laptop with the official manufacture's warranty.
+                        </div>
+                        <div class="description__second-para hidden-para">
+                            We have been successfully operating since 1992 and have earned  a reputation as a valuable partner,<span class="span-1 hidden para">as evidence by our large number of loyal customers. We take pride
+                            in the fact that clients come to us through recommendations and in turn, recommend us to their family and friends.</span>
+                        </div> 
+                        <div class="hidden-para">This is the end.</div>
+                    </div>
+                    <button class="more" id="first-more">
+                        <img class="icon" src="img/Icon (2).png" alt="">
+                        <div class="more1">Read more</div>
+                    </button>
+                </div> 
+                <div class="banner"><img class="company-banner" src="img/Image container.png" alt=""></div>
+            </div>
+        </div>
+
+
+        <div class="second-container">
+            <p class="brand-title brand-container">REPAIR OF EQUIPMENT FROM VARIOUS BRANDS</p>
+            
+                <div class="swiper logos" id="brands">
+                    <div class="swiper-wrapper swiper-wrapper1">
+                        <div class="brand swiper-slide">
+                            <div>
+                                <img src="img/Brand Logo.png" alt="">
+                            </div>
+                            <div>
+                                <img src="img/Go Icon Container.png" alt="">
+                            </div>
+                        </div>
+                        <div class="brand swiper-slide">
+                            <div>
+                                <img src="img/Brand Logo (1).png" alt="">
+                            </div>
+                            <div class="go-sign">
+                                <img src="img/Go Icon Container.png" alt="">
+                            </div>
+                        </div>
+                        <div class="brand swiper-slide">
+                            <div>
+                                <img src="img/Brand Logo (2).png" alt="">
+                            </div>
+                            <div class="go-sign">
+                                <img src="img/Go Icon Container.png" alt="">
+                            </div>
+                        </div>
+                        <div class="brand swiper-slide">
+                            <div>
+                                <img src="img/Brand Logo (3).png" alt="">
+                            </div>
+                            <div class="go-sign">
+                                <img src="img/Go Icon Container.png" alt="">
+                            </div>
+                        </div>
+                        <div class="brand swiper-slide">
+                            <div>
+                                <img src="img/Brand Logo (4).png" alt="">
+                            </div>
+                            <div class="go-sign">
+                                <img src="img/Go Icon Container.png" alt="">
+                            </div>
+                        </div>
+                        <div class="brand swiper-slide">
+                            <div>
+                                <img src="img/Brand Logo (5).png" alt="">
+                            </div>
+                            <div class="go-sign">
+                                <img src="img/Go Icon Container.png" alt="">
+                            </div>
+                        </div>
+                        <div class="brand swiper-slide tablet-hidden1 desktop-visible">
+                            <div>
+                                <img src="img/Brand Logo (6).png" alt="">
+                            </div>
+                            <div class="go-sign">
+                                <img src="img/Go Icon Container.png" alt="">
+                            </div>
+                        </div>
+                        <div class="brand swiper-slide tablet-hidden1 desktop-visible">
+                            <div>
+                                <img src="img/Brand Logo (7).png" alt="">
+                            </div>
+                            <div class="go-sign">
+                                <img src="img/Go Icon Container.png" alt="">
+                            </div>
+                        </div>
+                        <div class="brand desktop-hidden swiper-slide tablet-hidden1">
+                            <div>
+                                <img src="img/Brand Logo (8).png" alt="">
+                            </div>
+                            <div class="go-sign">
+                                <img src="img/Go Icon Container.png" alt="">
+                            </div>
+                        </div>
+                        <div class="brand desktop-hidden swiper-slide tablet-hidden1">
+                            <div class="go-sign">
+                                <img src="img/Brand Logo (2).png" alt="">
+                            </div>
+                            <div>
+                                <img src="img/Go Icon Container.png" alt="">
+                            </div>
+                        </div>
+                        <div class="brand desktop-hidden swiper-slide tablet-hidden1">
+                            <div>
+                                <img src="img/Brand Logo (1).png" alt="">
+                            </div>
+                            <div class="go-sign">
+                                <img src="img/Go Icon Container.png" alt="">
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                    <div class="swiper-pagination dot-slider"></div>
+                </div>
+                
+                
+                
+                
+            
+            
+
+            <button id="toggle-desktop1" class="toggle-button1">  
+                    <img class="arrow1" src="img/Expand Icon.png" alt="">
+                    <span class="button-text1" >Show all</span>
+            </button>
+        </div>
+      
+     
+    
+
+
+
+
+        <div class="third-container">
+            <div class="brand-title repair-container">
+                REPAIR OF VARIOUS TYPES OF EQUIPMENT
+            </div>
+
+            <div class="swiper swiper2">
+                <div class="swiper-wrapper swiper-wrapper2">
+                    <div class="swiper-slide swiper-slide2">
+                        <div>Laptop repair</div>
+                        <div class="equipment-arrow">
+                        <img src="img/Go Icon Container.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide2">
+                        <div>Tablet repair</div>
+                        <div class="equipment-arrow">
+                        <img src="img/Go Icon Container.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide2">
+                        <div>PC repair</div>
+                        <div class="equipment-arrow">
+                        <img src="img/Go Icon Container.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide2 tablet-hide desktop-ok">
+                        <div>Monitor repair</div>
+                        <div class="equipment-arrow">
+                        <img src="img/Go Icon Container.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide2 desktop-hide tablet-hide">
+                        <div>Mobile repair</div>
+                        <div class="equipment-arrow">
+                        <img src="img/Go Icon Container.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide2 desktop-hide tablet-hide">
+                        <div>Screen repair</div>
+                        <div class="equipment-arrow">
+                        <img src="img/Go Icon Container.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide2 desktop-hide tablet-hide">
+                        <div>Disk repair</div>
+                        <div class="equipment-arrow">
+                        <img src="img/Go Icon Container.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination dot-slider"></div>
+            </div>
+
+            <button id="toggle-desktop2" class="toggle-button2">
+                <img class="arrow2" src="img/Expand Icon.png" alt="" />
+                <span class="button-text2">Show all</span>
+            </button>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="fourth-container">
+        <div class="brand-title price-title">SERVICE PRICES</div>
+
+            <div class="swiper swiper3">
+                <div class="swiper-wrapper swiper-wrapper3">
+                    <div class="swiper-slide3 mobile-none">
+                        <div>Repair services</div>
+                        <div>Price</div>
+                        <div>Deadline</div>
+                    </div>
+                    <div class="swiper-slide swiper-slide3">
+                        <div class="service-class">
+                            <div class="desktop-vanish gray-title">Repair services</div>
+                            <div>Testing with a technical report</div>
+                        </div>
+                        <div class="price-class">
+                            <div class="desktop-vanish gray-title" >Price</div>
+                            <div>Free of charge</div>
+                        </div>
+                        <div class="term-class">
+                            <div class="desktop-vanish gray-title" >Deadline</div>
+                            <div>30-120 mins</div>
+                        </div>
+                        <div class="img"><img src="img/Order Container 2.png" alt=""></div>
+                        
+                    </div>
+                    <hr>
+                    <div class="swiper-slide swiper-slide3">
+                        <div class="service-class">
+                            <div class="desktop-vanish gray-title ">Repair services</div>
+                            <div>Diagnostics</div>
+                        </div>
+                        <div class="price-class">
+                            <div class="gray-title desktop-vanish">Price</div>
+                            <div>1000$</div>
+                        </div>
+                        <div class="term-class">
+                            <div class="gray-title desktop-vanish">Deadline</div>
+                            <div>30-120 mins</div>
+                        </div>
+                        <div class="img"><img src="img/Order Container 2.png" alt=""></div>
+                        
+                    </div>
+                    <hr>
+                    <div class="swiper-slide swiper-slide3">
+                        <div class="service-class">   
+                            <div class="gray-title desktop-vanish">Repair services</div>
+                            <div>Display replacement</div>
+                        </div>
+                        <div class="price-class">
+                            <div class="gray-title desktop-vanish">Price</div>
+                            <div>1000$</div>
+                        </div>
+                        <div class="term-class">
+                            <div class="gray-title desktop-vanish">Deadline</div>
+                            <div>30-120 mins</div>
+                        </div>
+                        <div class="img"><img src="img/Order Container 2.png" alt=""></div>
+                    </div>
+                    <hr>
+                    <div class="swiper-slide swiper-slide3">
+                        <div class="service-class"> 
+                            <div class="gray-title desktop-vanish"  class="desktop-vanish">Repair services</div>
+                            <div>Polyphonic speaker replacement</div>
+                        </div>
+                        <div class="price-class">
+                            <div  class="gray-title desktop-vanish">Price</div>
+                            <div>1000$</div>
+                        </div>
+                        <div class="term-class">
+                            <div  class="gray-title desktop-vanish">Deadline</div>
+                            <div>30-120 mins</div>
+                        </div>
+                        <div class="img"><img src="img/Order Container 2.png" alt=""></div>
+                    </div>
+                    <hr>
+                    <div class="swiper-slide swiper-slide3">
+                        <div class="service-class">
+                            <div  class="gray-title desktop-vanish">Repair services</div>
+                            <div>Software replacement</div>
+                        </div>
+                        <div class="price-class">
+                            <div  class="gray-title desktop-vanish">Price</div>
+                            <div>Free of charge</div>
+                        </div>
+                        <div class="term-class">
+                            <div  class="gray-title desktop-vanish">Deadline</div>
+                            <div>30-120 mins</div>
+                        </div>
+                        <div class="img"><img src="img/Order Container 2.png" alt=""></div>
+                        
+                    </div>
+                </div>
+
+                <div class="swiper-pagination dot-slider"></div>
+                
+            </div>
+        
+
+            
+        </div>
+    
+        <div class="vat-details">All prices include VAT. The cost of repair is indicated for a single 
+          service. To receive a commercial proposal for ongoing maintenance, please submit a request.
+        </div>
+
+        <div class="proposal-link">
+          <div class="proposal">Get a commercial proposal <span class="more-icon"><img src="img/More Icon.png" alt=""></span></div>
+        </div>
+
+
+        <div class="footers">
+          <div class="footer-left">
+            <div>©2019 CPS</div>
+            <div>Developed by the Apesong Team</div>
+          </div>
+          <div>Privacy policy</div>
+          <div>
+            The information on this page is not a public offer
+          </div>
+        </div>
+    
+    
+      </div>
+
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+
+    
+
+  </body>
+</html>
