@@ -26,7 +26,6 @@ closeButton.addEventListener('click', function () {
 document.addEventListener('DOMContentLoaded', function () { 
   var swiper = new Swiper('.swiper3', {
     slidesPerView: 1,
-    
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
