@@ -10,7 +10,7 @@ $optionText: #7e7e82;
 }
 
 body {
-  padding: 1rem;
+  padding: 0;
   margin: 0;
   font-family: Comic, sans-serif;
   background-color: white;
@@ -129,17 +129,28 @@ body {
 }
 
 @media (min-width: 768px) {
+  
+  .sidebar {
+    transform: translateX(-100%);
+    width: 320px;
+  }
+  .sidebar.show-mobile {
+    transform: translateX(0);
+    overflow-y: auto;
+  }
+  
+}
+@media (min-width: 1120px) {
+  .burger-icon {
+    display: none;
+  }
   .sidebar {
     width: 320px;
     transform: translateX(0);
     opacity: 1;
     overflow-y: auto;
   }
-  .burger-icon {
-    display: none;
-  }
 }
-
 /* first container css*/
 
 .first-container {
@@ -247,7 +258,7 @@ body {
 }
 .hidden-para.para-show {
   display: inline-block;
-  margin-top: 20px;
+
 }
 .icon {
   display: inline-block;
@@ -269,10 +280,11 @@ body {
 .more.expanded .icon {
   transform: rotate(180deg);
 }
+.more {
+  margin-left: 20px;
+}
 @media (min-width: 768px) {
-  .main-contents {
-    margin-left: 320px;
-  }
+  
   .desktop-hidden5 {
     display: inline-flex;
     margin-left: 20px;
@@ -349,9 +361,19 @@ body {
   .desktop-visible5 {
     display: none;
   }
+  .description__second-para {
+    display: inline;
+    margin-bottom: 20px;
+  }
+  .hidden-para.para-show .span-1 {
+    display: inline;
+  }
 }
 
 @media (min-width: 1120px) {
+  .main-contents {
+    margin-left: 320px;
+  }
   .icons {
     display: none;
   }
@@ -410,6 +432,7 @@ body {
   .hidden-para.para-show {
     display: inline-block;
   }
+  
 
   .description__second-para {
     display: inline;
@@ -438,7 +461,7 @@ body {
   margin-top: 20px;
   height: 150px;
   position: relative;
-  max-width: 100%;
+  max-width: 1090px;
 }
 .brand-title {
   margin-bottom: 25px;
@@ -673,6 +696,7 @@ body {
   margin-bottom: 20px;
   height: 230px;
   position: relative;
+  max-width: 1090px;
 }
 
 @media (max-width: 767px) {

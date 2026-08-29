@@ -6,14 +6,17 @@ console.log('It works!')
 
 const menuButton = document.querySelector('.open-sidebar');
 const closeButton = document.querySelector('.burger-icon');
-const sideBar = document.querySelector('.sidebar')
+const sideBar = document.querySelector('.sidebar');
+const mainContents = document.querySelector('.main-contents')
 
 menuButton.addEventListener('click', function () {
   sideBar.classList.add('show-mobile');
+  mainContents.classList.add('sidebar-open');
 }
 );
 closeButton.addEventListener('click', function () {
   sideBar.classList.remove('show-mobile');
+  mainContents.classList.remove('sidebar-open');
 }
 );
 
